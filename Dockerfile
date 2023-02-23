@@ -10,4 +10,4 @@ WORKDIR /var/lib/tiddlywiki
 ADD init-and-run-wiki /usr/local/bin/init-and-run-wiki
 
 # Meta
-CMD ["/usr/local/bin/init-and-run-wiki"]
+CMD ["/bin/sh", "/usr/local/bin/init-and-run-wiki"]
